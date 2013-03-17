@@ -20,10 +20,10 @@ Gem::Specification.new do |gem|
 
   gem.required_rubygems_version = ">= 1.3.6"
 
-  gem.add_dependency "bundler", "~> 1.0"
-  gem.add_dependency "rack", "~> 1.2.0"
+  gem.add_dependency "bundler", ">= 1.0"
+  gem.add_dependency "rack", ">= 1.2.0"
 
-  gem.add_development_dependency "bundler", "~> 1.0"
-  gem.add_development_dependency "rack", "~> 1.2.0"
+  gem.add_development_dependency "bundler", ">= 1.0"
+  gem.add_development_dependency "rack", ">= 1.2.0"
 
 end
