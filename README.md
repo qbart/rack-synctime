@@ -40,8 +40,7 @@ config.middleware.use Rack::Synctime, Rack::Synctime::DEFAULT_HEADER_NAME, -3600
 In Rails app sync time header name might be transformed into capitalized string by other mechanisms. So if you use custom header name make sure you have expected result.
 
 ## Demo
-TODO
-
+You can check out demo here: [Rack::Synctime demo](https://github.com/b-wojtowicz/rack-synctime-demo)
 
 ## Contributing
 
