@@ -20,21 +20,21 @@ Or install it yourself as:
 
 Put the following line in your application.rb file:
 
-````ruby
+```ruby
 config.middleware.use Rack::Synctime
-````
+```
 
 Custom header name:
 
-````ruby
+```ruby
 config.middleware.use Rack::Synctime, "Custom-Header-Name"
-````
+```
 
 Time offset:
 
-````ruby
+```ruby
 config.middleware.use Rack::Synctime, Rack::Synctime::DEFAULT_HEADER_NAME, -3600 # server time -1 hour
-````
+```
 
 ## Note
 
